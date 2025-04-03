@@ -482,7 +482,7 @@
             );
         };
 
-        while (offset < length) {
+        while (offset + 5 < length) {
 
             if ( isFieldSegmentStart(dataView, offset )){
 
